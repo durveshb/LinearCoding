@@ -1,0 +1,28 @@
+                                         README
+
+This repository has been created in order to demonstrate the Bipolar (AMI and Pseudoternary) 
+schemes of encoding binary data while transmission.
+
+Additionally, we have also demonstrated the working of Unipolar-NRZ and BiPolar-NRZ as well. 
+
+USER MANUAL :
+
+    The web applet includes a simple input field to input binary data 
+    (if any other form of data is entered, an error message is generated).
+    Once the data is entered, the viewer can choose any one of the coding 
+    schemes (represented by buttons on the applet).
+    Once the scheme is chosen, a graph is generated representing how the binary
+    data is represented as a signal.
+    Reset button clears the graph and the input field making the applet reagy to take new input.
+
+We have used the charts.js library in order to simulate the graph, and used jQuery in order to 
+implement the required interactivity.
+Further, a CSS library, Bootstrap has been used to make the site user friendly.
+
+Submitted by:
+
+Durvesh S Bhalekar
+16CO210
+
+Piyush N Hanchate
+16CO232

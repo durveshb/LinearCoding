@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    
+<head>
+	<title>Linear Coding Schemes</title>
+	<link rel="stylesheet" href="linearCodingSchemes.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+	 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--contains the entire body of the page-->
+	<div class="container">
+	    
+		<div class="head">
+			<h1>Enter the binary code</h1>
+			
+			<!--Take input-->
+			<input type="text" placeholder="Binary Code">
+		</div>
+		
+		<!--options for which coding scheme to choose-->
+		<div class="buttons">
+			<button type="button" id="unipolarNRZ">Uni-Polar NRZ</button>
+			<button type="button" id="bipolarNRZ">Bi-Polar NRZ</button>
+			<button type="button" id="AMI">AMI</button>
+			<button type="button" id="Pseudoternary">Pseudoternary</button>
+			<button type="button" id="reset">Reset</button>
+		</div>
+		
+		<!--the canvas to plot the required graph-->
+		<div class="chart">
+			<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript" src="jQuery.min.js"></script>
+    <script type="text/javascript" src="linearCodingSchemes.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

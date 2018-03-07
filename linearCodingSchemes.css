@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  margin: 0;
+  height: 100%;
+}
+
+button {
+  margin : 0 10px;
+  padding : 0 3px 0 3px;
+  height: 100%;
+  border: none;
+  background-color: #d7d7d7;
+  letter-spacing: 1.5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+.chart {
+  margin: 100px auto;
+}
+
+.head {
+    color : white;
+    text-align: center;
+    background-color: steelblue;
+    margin:0;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+.buttons {
+  height: 30px;
+  line-height: 100%;
+  background-color: #d7d7d7;
+  text-align: center;
+}
+
